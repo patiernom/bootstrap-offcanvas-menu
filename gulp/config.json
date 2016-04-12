@@ -1,0 +1,39 @@
+{
+  "js": {
+    "bootstrapOffcanvasMenu": {
+      "libname": "bootstrap.offcanvas.menu",
+      "dest": "dist/js",
+      "jshintrc": "src/js/.jshintrc",
+      "jscsrc": ".jscsrc",
+      "maps":  "/maps",
+      "srcfiles": [
+        { "root": "src/js/", "directory": "", "filename": "bootstrap-offcanvas-menu.js", "external": false }
+      ]
+    }
+  },
+  "css": {
+    "appStyle": {
+      "libname": "bootstrap.offcanvas.menu",
+      "dest": "dist/css",
+      "csslintrc": "src/less/csslintrc.json",
+      "maps":  "/maps",
+      "srcfiles": [
+        {
+          "root": "src/css/", "directory": "", "filename": "bootstrap.offcanvas.menu.css"
+        }
+      ]
+    }
+  },
+  "less": {
+    "bootstrapOffcanvasMenu": {
+      "libname": "bootstrap.offcanvas.menu",
+      "source": "src/less",
+      "dest": "src/css",
+      "maps": "/maps",
+      "srcfiles": [
+        "src/less/bootstrap-offcanvas-menu.less",
+        "src/less/bootstrap-offcanvas-navbar.less"
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+  .offcanvas-compatibilty-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99996;
+    top: 0;
+    overflow: scroll;
+  }
+  .offcanvas {
+    background: #222;
+    left: -100%;
+    width: 70%;
+    height: 100%;
+    min-width: 0;
+    position: absolute;
+    padding-left: 0;
+    z-index: 99998;
+    top: 0;
+    margin: 67px 0 0 0;
+    font-size: 13px;
+  }
+  .offcanvas.right {
+    left: 100%;
+  }
+  .offcanvas .content-body {
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 14px;
+  }
+  .offcanvas-height-col {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    width: 70%;
+    left: -70%;
+    z-index: 99997;
+    background: #222;
+  }
+  .offcanvas-height-col.right {
+    left: 100%;
+  }
+  .offcanvas-overlay {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+    opacity: 1;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+@media (max-width: 768px) {
+  nav.navbar {
+    border-top: 0;
+  }
+  nav.navbar .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+  }
+  nav.navbar .navbar-header {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  nav.navbar .offcanvas {
+    z-index: 6;
+  }
+  nav.navbar .offcanvas .head {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  nav.navbar .offcanvas .navbar-nav {
+    min-width: 0;
+    width: 100%;
+    margin: 0;
+  }
+  nav.navbar .offcanvas .navbar-nav ul.dropdown-menu {
+    list-style: outside none none;
+    padding-left: 0;
+  }
+  nav.navbar .offcanvas .navbar-nav ul.dropdown-menu li a {
+    width: 100%;
+  }
+  nav.navbar .offcanvas .navbar-nav li a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    color: #212121;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    margin: 0;
+  }
+  nav.navbar .offcanvas .navbar-nav li a i {
+    font-size: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+  nav.navbar .offcanvas .navbar-nav li a span {
+    vertical-align: middle;
+  }
+  nav.navbar .offcanvas .navbar-nav li a.highlight {
+    color: #E85C32;
+  }
+  nav.navbar .offcanvas .navbar-nav li a.highlight:hover {
+    color: #E85C32;
+  }
+  nav.navbar .offcanvas .navbar-nav li a:hover {
+    color: #212121;
+    text-decoration: none;
+  }
+  nav.navbar .offcanvas .navbar-nav .dropdown-menu li a {
+    min-width: 0;
+    width: 70%;
+    white-space: normal;
+  }
+  nav.navbar .offcanvas-height-col {
+    z-index: 5;
+  }
+  nav.navbar .offcanvas-overlay {
+    z-index: 4;
+  }
+}
+
+/*# sourceMappingURL=maps/bootstrap.offcanvas.menu.css.map */
